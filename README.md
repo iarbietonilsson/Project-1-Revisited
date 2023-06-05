@@ -33,3 +33,11 @@
 ## Decision Tree Regression Feature Importances
 
 <img src='Data/treereg_featureimportance.png'>
+
+#### The Top 5 Feature Importance for the Decision Tree Regression Model:
+
+* #### Item MRP (Price)
+* #### Item Weight
+* #### Item Visibility
+* #### Medium Outlet Size
+* #### Tier 1 Outlets
