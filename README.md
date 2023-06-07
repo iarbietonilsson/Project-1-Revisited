@@ -2,7 +2,7 @@
 
 ## Linear Regression Coefficients
 
-<img src='Data/linreg_coeff.png'>
+<img src='images/linreg_coeff.png'>
 
 ### Interpreting Linear Model's Coefficients
 
@@ -32,7 +32,7 @@
 
 ## Decision Tree Regression Feature Importances
 
-<img src='Data/treereg_featureimportance.png'>
+<img src='images/treereg_featureimportance.png'>
 
 #### The Top 5 Feature Importance for the Decision Tree Regression Model:
 
@@ -41,3 +41,48 @@
 * #### Item Visibility
 * #### Medium Outlet Size
 * #### Tier 1 Outlets
+
+## Food Item Sales : SHAP Summary Bar Plot
+
+<img src ='images/SHAPbar.png'>
+
+### Are they the same features in both? If not, what's different?
+
+#### Top 5 SHAP Features
+* Item Price
+* Item Weight
+* Item Visibility
+* Outlet Type : Tier 1
+* Outlet Type : Tier 3
+
+#### Top 5 Feature Importances
+* Item Price
+* Item Weight
+* Item Visibility
+* Outlet Size : Medium
+* Outlet Type : Tier 1
+
+
+The Top 3 SHAP features, Item Price, Item Weight, and Item Visibility are the same as the original top 3 Feature Importances.
+
+One difference is Tier 1 Outlet is fourth in SHAP Features versus Medium Outlet Size.
+
+Another different is Tier 3 rounds out the top 5 for SHAP features, and Tier 1 Outlets come in fifth for the original Feature Importances.
+
+## Food Item Sales : SHAP Summary Dot Plot
+
+<img src='images/SHAPdot.png'>
+
+### Top 3 SHAP Features
+
+* #### Item MRP (Price)
+
+   - The higher the price results in greater food item sales.
+   
+* #### Item Weight
+
+   - There is no correlation between Item Price and food item sales.
+   
+* #### Item Visibility
+
+   - Less visible items decrease food item sales.
