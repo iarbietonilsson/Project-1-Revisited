@@ -86,3 +86,29 @@ Another different is Tier 3 rounds out the top 5 for SHAP features, and Tier 1 O
 * #### Item Visibility
 
    - Less visible items decrease food item sales.
+   
+## Local Explanations
+
+### High Sale Item
+
+#### This baked goods food item was selected due to its high price and high visibility.
+
+* High Price
+* Large (High) Outlet
+* Tier 3 Outlet
+
+<img src='images/SHAPforce_high.png'>
+
+<img src='images/LIME_high.png'>
+
+### Low Sale Item
+
+#### This fruit / vegetable food item was selected due to its low price from a Tier 3 Outlet.
+
+* Low Price
+* Tier 3 Outlet
+
+<img src='images/SHAPforce_low.png'>
+
+<img src='images/LIME_low.png'>
+
